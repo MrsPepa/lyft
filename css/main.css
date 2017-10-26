@@ -1,3 +1,190 @@
 /*
  * Estilos de tu proyecto
  */
+ a{
+ 	text-decoration: none;
+ }
+ header{
+ 	background-image: url(../assets/images/hero.gif);
+ 	background-size: 100%;
+ 	width: 100%;
+ 	height: 600px;
+ 	margin-top: -115px;
+ 	margin-left: -8px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 19px;
+ }
+ nav{
+	background:linear-gradient(rgba(46, 18, 68, 0.6),transparent );
+ 	width: 100%;
+ 	position: fixed;
+ 	margin-top: 110px;
+ }
+ nav img{
+ 	width: 70px;
+ 	height: 48px;
+ 	padding-left: 77px;
+ 	padding-top: 40px;
+ }
+ header div{
+ 	display: inline-block;
+ 	float: right;
+ 	margin-top: 39px;
+ 	margin-right: 210px;
+ }
+ header #menu a{
+ 	color: #fff;
+ 	padding-left: 44px;
+ }
+ header button{
+ 	background-color: transparent;
+ 	font-size: 19px;
+ 	border-radius: 6px;
+ 	color: #fff;
+ 	width: 91px;
+ 	height: 45px;
+ 	font-weight: 300;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-left: 45px;
+ 	margin-right: -40px;
+ 	border: none;
+ 	border-color: 1px solid #fff;
+ }
+ header .box-white{
+ 	width: 561px;
+ 	height: 450px;
+ 	background-color: #fff;
+ 	float: right;
+ 	margin-top: 220px;
+ }
+header #num1{
+	font-family: 'Montserrat', sans-serif;
+	color: #352384;
+	margin-right: 114px;
+	margin-top: 25px;
+}
+header h1{
+	font-size: 38px;
+	font-weight: 600;
+}
+header h5{
+	font-size: 14px;
+	font-weight: 300;
+}
+header #num1 input{
+	border: none;
+	border-bottom: 1px solid #352384;
+	font-size: 17px;
+	display: inline-block;
+	width: 384px;
+}
+header .box-white button{
+	border-radius: 6px;
+	background-color: #FF00BF;
+	color: #fff;
+	width: 182px;
+	margin-top: 18px;
+	margin-left: 62px;
+	font-weight: 500;
+}
+.box-white span{
+	color: #728099;
+	margin-left: 56px;
+	text-decoration: underline;
+}
+.box-white #num2{
+	color: #728099;
+	font-size: 10px;
+	line-height: 2.4;
+}
+#num2 a{
+	color: #FF00BF;
+}
+.blockD{
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(transparent,#76278f );
+	margin-left: -8px;
+	margin-top: -200px;
+}
+ #first{
+ 	margin-left: -8px;
+ 	margin-right: -8px;
+ 	width: 100%;
+ 	height: 725px;
+ 	background: linear-gradient(#76278F, #2B1E66);
+ }
+ #first .three{
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #fff;
+ 	width: 478px;
+ 	padding: 100px;
+ }
+ #first p{
+ 	font-weight: 300;
+ 	font-size: 17px;
+ }
+ #first img{
+ 	margin-right: 150px;
+ 	margin-top: -570px;
+ 	width: 502px;
+ 	height: 533px;
+ 	float: right;
+ }
+#second{
+	float: right;
+}
+#second div{
+	float: left;
+	display: inline-block;
+	width: 445px;
+	font-family: 'Montserrat', sans-serif;
+}
+#second h4{
+	line-height: 0.7;
+}
+#second p{
+	padding-top: 14px;
+	text-align: left;
+	line-height: 1.4;
+}
+#third{
+	float: left;
+}
+#third div{
+	float: right;
+	display: inline-block;
+	width: 445px;
+	font-family: 'Montserrat', sans-serif;
+}
+#third h4{
+	line-height: 0.7;
+}
+#third p{
+	padding-top: 14px;
+	text-align: left;
+	line-height: 1.4;
+}
+#fourth{
+	float: right;
+}
+#fourth div{
+	float: left;
+	display: inline-block;
+	width: 445px;
+	font-family: 'Montserrat', sans-serif;
+}
+#fourth h4{
+	line-height: 0.7;
+}
+#fourth p{
+	padding-top: 14px;
+	text-align: left;
+	line-height: 1.4;
+}
+footer{
+	background-color: #333447;
+	width: 100%;
+	
+}
