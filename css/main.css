@@ -4,6 +4,8 @@
  a{
  	text-decoration: none;
  }
+
+ /*    HEADER    */
  header{
  	background-image: url(../assets/images/hero.gif);
  	background-size: 100%;
@@ -15,17 +17,20 @@
  	font-weight: 300;
  	font-size: 19px;
  }
+
+ /*   NAVEGADOR   */
  nav{
 	background:linear-gradient(rgba(46, 18, 68, 0.6),transparent );
  	width: 100%;
  	position: fixed;
- 	margin-top: 110px;
+ 	margin-top: 107px;
  }
  nav img{
  	width: 70px;
  	height: 48px;
  	padding-left: 77px;
  	padding-top: 40px;
+ 	cursor: pointer;
  }
  header div{
  	display: inline-block;
@@ -48,9 +53,11 @@
  	font-family: 'Montserrat', sans-serif;
  	margin-left: 45px;
  	margin-right: -40px;
- 	border: none;
- 	border-color: 1px solid #fff;
+ 	border: 1px solid #fff;
+ 	cursor: pointer;
  }
+
+ /*    CAJA BLANCA    */
  header .box-white{
  	width: 561px;
  	height: 450px;
@@ -79,6 +86,9 @@ header #num1 input{
 	display: inline-block;
 	width: 384px;
 }
+::placeholder{
+	color: #C8CEDE;
+}
 header .box-white button{
 	border-radius: 6px;
 	background-color: #FF00BF;
@@ -93,6 +103,11 @@ header .box-white button{
 	margin-left: 56px;
 	text-decoration: underline;
 }
+.box-white span:hover{
+	color: #B30086;
+	text-decoration: underline;
+	cursor: pointer;
+}
 .box-white #num2{
 	color: #728099;
 	font-size: 10px;
@@ -101,6 +116,12 @@ header .box-white button{
 #num2 a{
 	color: #FF00BF;
 }
+#num2 a:hover{
+	color: #B30086;
+	text-decoration: underline;
+}
+
+/*     DEGRADE    */
 .blockD{
 	width: 100%;
 	height: 200px;
@@ -108,6 +129,8 @@ header .box-white button{
 	margin-left: -8px;
 	margin-top: -200px;
 }
+
+/*     PRIMERA SECCION     */
  #first{
  	margin-left: -8px;
  	margin-right: -8px;
@@ -126,20 +149,23 @@ header .box-white button{
  	font-size: 17px;
  }
  #first img{
- 	margin-right: 150px;
- 	margin-top: -570px;
+ 	margin-right: 170px;
+ 	margin-top: -122px;
  	width: 502px;
  	height: 533px;
  	float: right;
  }
+
+ /*     SEGUNDA SECCION     */
 #second{
 	float: right;
 }
 #second div{
 	float: left;
 	display: inline-block;
-	width: 445px;
+	width: 374px;
 	font-family: 'Montserrat', sans-serif;
+	margin: 54px;
 }
 #second h4{
 	line-height: 0.7;
@@ -149,14 +175,19 @@ header .box-white button{
 	text-align: left;
 	line-height: 1.4;
 }
+
+/*     TERCERA SECCION     */
 #third{
 	float: left;
+	margin-top: -4px;
 }
 #third div{
 	float: right;
 	display: inline-block;
-	width: 445px;
+	width: 347px;
 	font-family: 'Montserrat', sans-serif;
+	padding-left: 32px;
+	padding-top: 6px;
 }
 #third h4{
 	line-height: 0.7;
@@ -166,14 +197,18 @@ header .box-white button{
 	text-align: left;
 	line-height: 1.4;
 }
+
+/*     CUARTA SECCION     */
 #fourth{
 	float: right;
+	margin-top: -4px;
 }
 #fourth div{
 	float: left;
 	display: inline-block;
-	width: 445px;
+	width: 359px;
 	font-family: 'Montserrat', sans-serif;
+	margin: 54px;
 }
 #fourth h4{
 	line-height: 0.7;
@@ -183,8 +218,89 @@ header .box-white button{
 	text-align: left;
 	line-height: 1.4;
 }
+
+/*FOOTER*/
 footer{
+	float: right;
 	background-color: #333447;
 	width: 100%;
-	
+	height: 555px;
+	padding-left: 8px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	margin-top: -4px;
+}
+footer table{
+	margin-top: 36px;
+	margin-left: 119px;
+}
+footer td{
+	padding-right: 188px;
+}
+footer h2:hover{
+	text-decoration: underline;
+}
+footer h4{
+	font-weight: 300;
+}
+footer h4:hover{
+	color: #B30086;
+	text-decoration: underline;
+	cursor: pointer;
+}
+footer div{
+	margin-top: 37px;
+}
+footer table img{
+	padding-bottom: 33px;
+}
+td img{
+	cursor: pointer;
+}
+.two, .three{
+	display: block;
+	width: 135px;
+	height: 40px;
+}
+footer #rrss{
+	margin-left: 440px;
+	margin-top: 15px;
+}
+footer #rrss div{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.icon-social-facebook:before {
+ 	content: "\e900";
+ 	line-height: 40px;
+}
+
+.icon-instagram:before {
+ content: "\e903";
+ line-height: 40px;
+}
+
+.icon-twitter:before {
+ content: "\e902";
+ line-height: 40px;
+}
+hr{
+	display: inline-block;
+	width: 604px;
+	margin-top: 35px;
+	margin-left: 348px;
+}
+footer span{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 40px;
 }
